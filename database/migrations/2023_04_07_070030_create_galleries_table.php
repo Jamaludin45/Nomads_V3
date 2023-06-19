@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('galleries', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->integer('travel_pakages_id');
+            $table->integer('travel_packages_id');
             $table->text('image');
             $table->softDeletes();
             $table->timestamps();
